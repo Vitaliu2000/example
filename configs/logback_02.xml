@@ -14,7 +14,7 @@
             <onMismatch>DENY</onMismatch>
         </filter>
 
-        <file>logs/application.log</file>
+        <file>/Users/administrator/IdeaProjects/example/logs/roll.log</file>
         <encoder>
             <pattern>%date %level [%thread] [%file:%line] %msg%n</pattern>
         </encoder>
