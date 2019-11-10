@@ -1,0 +1,3 @@
+2019-11-10 15:11:43,822 ERROR [main] [LoggerRollingPolicyExample.java:18] message error for file:0
+2019-11-10 15:13:17,095 ERROR [main] [LoggerRollingPolicyExample.java:18] message error for file:0
+2019-11-10 15:14:28,091 ERROR [main] [LoggerRollingPolicyExample.java:18] message error for file:0

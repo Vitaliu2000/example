@@ -13,7 +13,12 @@ public class LoggerRollingPolicyExample {
 
     public void loop() {
         while(true) {
-            logger.error("message for file:{}", counter);
+            logger.warn("message warn for file:{}", counter);
+            logger.info("message info for file:{}", counter);
+            logger.error("message error for file:{}", counter);
+            logger.debug("message debug for file:{}", counter);
+            logger.trace("message trace for file:{}", counter);
+
             counter++;
             try {
                 Thread.sleep(10);
